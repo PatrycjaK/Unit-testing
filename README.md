@@ -47,8 +47,8 @@ def test_f0(self):
 * f7 11111 liczba
 * f7 11111 liczba_ze_znakiem
 * f7 "Ala ma kota."  zdanie
-* f7 <taaag>   tag poczatkowy
-* f7 </taaag>   tag koncowy
+* f7 ```<taaag>```   tag poczatkowy
+* f7 ```</taaag>```   tag koncowy
 ---------------------------------------------------------------------
 * f8 kot, ala ma kota  true
 * f8 pies, ala ma kota  false
