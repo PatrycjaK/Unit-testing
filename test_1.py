@@ -104,11 +104,11 @@ class StringMethods(unittest.TestCase):
         self.assertEqual(r,[0, 5, 10, 15])
 
     def test_f6_1(self):
-        s = krak.f6(1)
+        s = krak.f6(1, '*')
         self.assertEqual(s,'*')
 
     def test_f6_2(self):
-        s = krak.f6(7)
+        s = krak.f6(7, '*')
         self.assertEqual(s,'*******')
 
     def test_f7_1(self):

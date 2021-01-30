@@ -26,8 +26,8 @@ def f4(a, b = ''):
 def f5(a, b = 1):
     return [num for num in range(0, a, b)]
 
-def f6(s):
-  return s * '*'
+def f6(a, b):
+  return a * b
 
 def f7(a):
     if type(a) == type('ala') and len(a.split()) == 1:
